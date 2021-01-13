@@ -1,7 +1,5 @@
-let themeDots = document.getElementsByClassName('theme-dot');
-
 let theme = localStorage.getItem('theme')
-
+let themeDots = document.getElementsByClassName('theme-dot');
 if(theme == null){
     setTheme('purple');
 }
@@ -16,6 +14,8 @@ for (var i=0; themeDots.length >i; i++){
         setTheme(mode)
     })
 }
+
+
 
 function setTheme(mode){
 if (mode == 'purple'){
