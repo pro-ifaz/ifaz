@@ -30,3 +30,15 @@ if (mode == 'green'){
 
 localStorage.setItem('theme', mode)
 }
+
+
+//contact button 
+
+const button = document.querySelector('#contact-button');
+
+
+button.addEventListener('click', () => {
+
+const tab = window.open('https://www.fiverr.com/ifaz98', '_blank');
+
+});
