@@ -338,9 +338,6 @@ font-size: larger;
 #contact-button:hover{
     cursor: pointer; 
 }
-#contact-button:focus{
-    padding: 20px 50px;
-}
 footer p{
     left: 0;
     bottom: 0;
