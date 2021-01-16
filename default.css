@@ -12,7 +12,8 @@
 
 	--previewBg:rgb(29, 21, 32, 0.8);
 	--previewShadow:#2b202f;
-
+    --buttonColor1: rgb(72, 10, 97);
+    --buttonColor2: rgb(133, 4, 79);
 
 }
 body{
@@ -334,9 +335,13 @@ padding: 30px 100px;
 margin-top: 100px;
 margin-bottom: 100px;
 font-size: larger;
+transition-duration: 0.4s;
+outline: none;
 }
 #contact-button:hover{
     cursor: pointer; 
+    background-image: linear-gradient(120deg, var(--buttonColor1), var(--buttonColor2));
+    color: white;
 }
 footer p{
     left: 0;
