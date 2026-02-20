@@ -39,6 +39,6 @@ const button = document.querySelector('#contact-button');
 
 button.addEventListener('click', () => {
 
-const tab = window.open('https://www.fiverr.com/ifaz98', '_blank');
+const tab = window.open('https://wa.me/+8801608915187', '_blank');
 
 });
